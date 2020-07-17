@@ -60,5 +60,3 @@ function tinyFriend(nameList) {
 	}
 	return tinyName;
 }
-
-
