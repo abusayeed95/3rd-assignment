@@ -1,17 +1,23 @@
 
-//FeetToMile
+//feetToMile
 
-function FeetToMile(FeetInput) {
-	if (FeetInput <= 0) {
+
+
+function feetToMile(feetInput) {
+	if (feetInput <= 0) {
 		console.log("So clever,huh! distance cannot be negative or zero");
 	}
 	else {
-		var mile = FeetInput / 5280;
+		var mile = feetInput / 5280;
 		return mile.toFixed(2);
 	}
 }
 
+
+
 //Wood Calculator
+
+
 
 function woodCalculator(chair, table, bed) {
 	var chairInput = 1 * chair;
@@ -20,6 +26,9 @@ function woodCalculator(chair, table, bed) {
 	var woodTotal = chairInput + tableInput + bedInput;
 	return woodTotal;
 }
+
+
+
 
 //Brick Calculator
 
@@ -47,7 +56,12 @@ function brickCalculator(floorInput) {
 	return totalBrick;
 }
 
+var a = brickCalculator(6)
+console.log(a)
+
+
 // Tiny Friend
+
 
 
 function tinyFriend(nameList) {
